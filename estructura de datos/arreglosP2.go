@@ -1,16 +1,17 @@
 package main
 
-func main() {
-	/*
-		var numeros [5]int //Declaro array de numeros enteros
-		numeros[0] = 100
-		numeros[1] = 200
-		numeros[2] = 300
-		numeros[3] = 400
-		numeros[4] = 500 //Sí asigno "500" dara error
+import "fmt"
 
-		fmt.Println(numeros[0])
-		fmt.Printf("%d\n", numeros[1])
-		fmt.Print(numeros[2])
+func main() {
+	monedas := [...]string {0: "Dólar Canadiense", 3: "Peso Argentino", 2: "Dolar", 5: "Euro"}
+	/*
+		fmt.Println(monedas[0])
+		fmt.Println(monedas[1])
+		fmt.Println(monedas[2])
+		fmt.Println(monedas[3])
+		fmt.Println(monedas[4])
+		fmt.Println(monedas[5])
 	*/
+	subMonedas := monedas[0:3] //(Sub-arreglo) Slice
+	fmt.Println(subMonedas)
 }

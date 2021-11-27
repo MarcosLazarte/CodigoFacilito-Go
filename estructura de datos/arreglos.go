@@ -1,6 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
+	//numeros := [5]int{100, 200, 300, 400, 500}
+	numeros := [...]int{100, 200, 300, 400, 500}
 	/*
 		var numeros [5]int //Declaro array de numeros enteros
 		numeros[0] = 100
@@ -13,4 +17,5 @@ func main() {
 		fmt.Printf("%d\n", numeros[1])
 		fmt.Print(numeros[2])
 	*/
+	fmt.Println(numeros)
 }
