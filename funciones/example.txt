@@ -1,0 +1,2 @@
+Holis, estamos en un archivo.txt
+Holangas, estamos en un curso de Go!
